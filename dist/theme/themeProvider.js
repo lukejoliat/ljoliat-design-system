@@ -1,0 +1,1 @@
+import{ThemeProvider}from"theme-ui";import{theme}from"./theme";import{jsx as _jsx}from"react/jsx-runtime";var DesignSystemTheme=function(a){var b=a.children;return/*#__PURE__*/_jsx(ThemeProvider,{theme:theme,children:b})};export{DesignSystemTheme};
