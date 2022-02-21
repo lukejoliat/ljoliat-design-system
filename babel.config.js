@@ -8,7 +8,7 @@ module.exports = {
           loose: true,
           modules: false,
           targets: '> 0.25%, not dead, not ie 11',
-          useBuiltIns: "entry"
+          useBuiltIns: "entry",
         }
       ],
       ['@babel/react', { "runtime": "automatic" }],
