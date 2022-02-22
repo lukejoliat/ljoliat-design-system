@@ -3,7 +3,7 @@ import React from 'react'
 
 const Input = ({ style, ...props }) => {
     return (
-        <input sx={{ border: '1px solid blue', ...style }} {...props} />
+        <input data-aid="lukes-input" sx={{ border: '1px solid blue', ...style }} {...props} />
     );
 }
 
