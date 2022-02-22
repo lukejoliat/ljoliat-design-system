@@ -1,7 +1,7 @@
 {
   "name": "ljoliat-design-system",
   "sideEffects": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "module": "dist/index.js",
   "scripts": {
