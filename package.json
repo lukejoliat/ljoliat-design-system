@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "styled-system": "^5.1.5",
     "theme-ui": "^0.13.1"
   },
   "peerDependencies": {
@@ -38,6 +39,9 @@
     "@storybook/testing-library": "^0.0.9",
     "babel-loader": "^8.2.3",
     "babel-preset-minify": "^0.5.1",
+    "eslint": "^8.9.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }

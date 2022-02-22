@@ -23,15 +23,3 @@ Primary.args = {
   width: 256,
   p: 4
 };
-
-// export const Secondary = Template.bind({});
-// Secondary.args = {
-//   label: 'Button',
-//   variant: 'secondary'
-// };
-
-// export const Tertiary = Template.bind({});
-// Secondary.args = {
-//   label: 'Button',
-//   variant: 'tertiary'
-// };
