@@ -36,6 +36,11 @@ const theme = {
       color: 'text',
       fontSize: 'inherit',
     },
+    heading: {
+      fontFamily: 'monospace',
+      fontWeight: 'heading',
+      lineHeight: '2',
+    },
   },
   buttons: {
     primary: {
