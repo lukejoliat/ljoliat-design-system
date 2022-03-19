@@ -8,7 +8,7 @@ const Text = ({ variant = 'primary', children, ...props }) => {
   return (
     <StyledText
       data-aid="ljoliat-text"
-      sx={{ variant: `text.${variant}` }}
+      // sx={{ variant: `text.${variant}` }}
       {...props}
     >
       {children}

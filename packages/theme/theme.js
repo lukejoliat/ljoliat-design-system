@@ -29,6 +29,7 @@ const theme = {
       border: 'none',
       borderRadius: 4,
       minWidth: 0,
+      p: 2,
     },
   },
   text: {
@@ -75,6 +76,12 @@ const theme = {
       py: 1,
       px: 2,
       bg: 'accent',
+    },
+  },
+  forms: {
+    select: {
+      fontFamily: 'roboto',
+      bg: 'red',
     },
   },
   styles: {

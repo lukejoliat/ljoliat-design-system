@@ -1,6 +1,8 @@
 import React from 'react';
 import { DesignSystemTheme } from '../packages';
 import Card from '../packages/card/card';
+import Heading from '../packages/heading/heading';
+import Text from '../packages/text/text';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -13,13 +15,18 @@ export default {
 };
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template = (args) => <DesignSystemTheme><Card {...args}><h1>This is a card</h1><p>This is the card content.</p></Card></DesignSystemTheme>;
+const Template = (args) => (
+  <DesignSystemTheme>
+    <Card {...args}>
+      <Heading>This is a card</Heading>
+      <Text>This is the card content.</Text>
+    </Card>
+  </DesignSystemTheme>
+);
 
 export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
   label: 'Card',
   variant: 'primary',
-  width: 256,
-  p: 4
 };

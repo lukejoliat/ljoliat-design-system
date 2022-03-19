@@ -15,5 +15,4 @@ const Card = ({ variant = 'primary', children, ...props }) => {
     </StyledCard>
   );
 };
-
 export default Card;
