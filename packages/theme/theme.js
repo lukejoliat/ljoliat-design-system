@@ -21,6 +21,7 @@ const theme = {
     primary: '#087ea4',
     secondary: '#149eca',
     accent: 'rgb(87 95 183)',
+    highlight: 'rgb(59 130 246/0.5)',
     muted: '#343a46',
   },
   cards: {
@@ -38,9 +39,9 @@ const theme = {
       fontSize: 'inherit',
     },
     heading: {
-      fontFamily: 'monospace',
+      fontFamily: 'heading',
       fontWeight: 'heading',
-      lineHeight: '2',
+      lineHeight: 'heading',
     },
   },
   buttons: {
@@ -50,9 +51,9 @@ const theme = {
       border: 'none',
       borderRadius: 4,
       fontWeight: 'bold',
-      fontSize: 1,
-      py: 1,
-      px: 2,
+      // fontSize: 1,
+      // py: 1,
+      // px: 2,
       bg: 'primary',
     },
     secondary: {
@@ -61,9 +62,9 @@ const theme = {
       border: 'none',
       borderRadius: 4,
       fontWeight: 'bold',
-      fontSize: 1,
-      py: 1,
-      px: 2,
+      // fontSize: 1,
+      // py: 1,
+      // px: 2,
       bg: 'secondary',
     },
     tertiary: {
@@ -72,16 +73,24 @@ const theme = {
       border: 'none',
       borderRadius: 4,
       fontWeight: 'bold',
-      fontSize: 1,
-      py: 1,
-      px: 2,
+      // fontSize: 1,
+      // py: 1,
+      // px: 2,
       bg: 'accent',
     },
   },
   forms: {
     select: {
-      fontFamily: 'roboto',
-      bg: 'red',
+      // fontFamily: 'roboto',
+      // bg: 'red',
+      cursor: 'pointer',
+    },
+    input: {
+      border: 'none',
+      background: 'muted',
+      ':focus': {
+        outline: '2px solid highlight',
+      },
     },
   },
   styles: {

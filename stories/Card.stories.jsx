@@ -1,8 +1,5 @@
 import React from 'react';
-import { DesignSystemTheme } from '../packages';
-import Card from '../packages/card/card';
-import Heading from '../packages/heading/heading';
-import Text from '../packages/text/text';
+import { Card, Heading, Text, DesignSystemTheme } from '../packages';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
